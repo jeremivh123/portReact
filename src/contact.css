@@ -1,0 +1,28 @@
+#contactHeader {
+  width: 99%;
+  margin-left: 6px;
+  height: 10%;
+  background-color: black;
+}
+
+a {
+  float: right;
+  margin-right: 10px;
+}
+#container2 {
+  position: fixed;
+  height: 60%;
+  left: 15%;
+  top: 15%;
+  width: 70%;
+  padding: 50;
+  margin: 0 auto;
+  background-color: black;
+  overflow: hidden;
+  color: darkgray;
+}
+
+h2 {
+  font-size: 30px;
+  color: darkgray;
+}

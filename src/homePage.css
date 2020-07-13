@@ -1,0 +1,78 @@
+#homeHeader {
+  width: 99%;
+  margin-left: 6px;
+  height: 10%;
+}
+h1 {
+  color: aliceblue;
+  display: inline;
+}
+
+h2,
+h3,
+h4 {
+  color: aliceblue;
+  display: inline;
+  text-decoration: underline;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: 50;
+  background-color: black;
+}
+
+h3 {
+  color: aliceblue;
+  font-size: 50;
+  background: linear-gradient(to right, black 50%, transparent 50%);
+}
+
+h4 {
+  color: aliceblue;
+  font-size: 50;
+}
+
+.colu-1,
+.colu-2,
+.colu-3 {
+  text-align: center;
+  /*change color to black when hover*/
+
+  width: 31%;
+  height: 15%;
+  float: left;
+  padding: 25px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#aboutHoverbox,
+#contactHoverBox,
+#portfolioHoverBox {
+  text-align: center;
+  /*change color to black when hover*/
+  background-color: black;
+  width: 31%;
+  height: 60%;
+  float: left;
+  padding: 25px;
+  margin-left: 16px;
+  margin-right: 16px;
+  visibility: hidden;
+  color: white;
+}
+
+#icons {
+  font-size: 100px;
+}
+
+.homeP {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+#link {
+  font-size: 25px;
+  bottom: 40px;
+}
